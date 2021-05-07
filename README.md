@@ -1,6 +1,6 @@
 ## MIT 6.01 - Introduction to Electrical Engineering and Computer Science
 
-This course teaches the fundamental design principles of modularity and abstraction in a variety of contexts from electrical engineering and computer science. The main topics covered are:
+This course teaches the fundamental design principles of modularity and abstraction in a variety of contexts from electrical engineering and computer science. The main topics I covered in this course were:
 
 #### Unit 1 - Software Engineering
 * Object-oriented programming
