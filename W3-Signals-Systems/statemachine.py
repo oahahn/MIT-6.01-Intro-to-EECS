@@ -170,30 +170,3 @@ class Repeat(SM):
         counter, smState = self.advanceIfDone(counter, smState)
         return (counter, smState), o # s, o
 
-import operator 
-
-##  To work in feedback situations we need to propagate 'undefined'
-##  through various operations. 
-
-def isDefined(v):
-    return not v == 'undefined'
-def allDefined(struct):
-    if struct == 'undefined':
-        return False
-    elif isinstance(struct, list) or isinstance(struct, tuple):
-        return reduce(operator.and_, [allDefined(x) for x in struct])
-    else:
-        return True
-
-# Only binary functions for now
-def safe(f):
-    def safef(a1, a2):
-        if allDefined(a1) and allDefined(a2):
-            return f(a1, a2)
-        else:
-            return 'undefined'
-    return safef
-
-safeAdd = safe(operator.add)
-safeMul = safe(operator.mul)
-safeSub = safe(operator.sub)
