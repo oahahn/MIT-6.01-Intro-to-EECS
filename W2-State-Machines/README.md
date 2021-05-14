@@ -2,7 +2,7 @@
 
 Week 2 introduced the concept of state machines. We discussed particular situations in which thinking of certain problems as state machines have advantages over traditional functional programming approaches. For example, when modelling a system over time where data accumulates or its evolution is important. Below are descriptions of the Python scripts I implemented during this week. 
 
-*  hw1Work.py
+*  hw1Work.py:
 	*  This script implements a simple symbolic calculator that reads, evaluates, and prints arithmetic expres­sions that contain variables as well as numeric values. It is similar, in structure and operation, to the Python interpreter. The calculator operates in two phases. It
 		*  Parses the input string of characters to generate a syntax tree; and then
 		*  Evaluates the syntax tree to generate a value, if possible, and does any required assignments.
