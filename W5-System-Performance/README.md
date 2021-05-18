@@ -10,4 +10,4 @@ In Week 5 we learnt about poles. More specifically how to find them and what the
 	*  Constructs a model of the proportional wall-follower system using the
 SystemFunction class.
 * robotHead.py
-	* Implements a model of a system which controls a motor to turn a robot “head”to face a light. The system consists of a light sensor, a motor and a control circuit. Includes methods to find optimal performance based on the dominant pole. 
+	* Implements a model of a system which controls a motor to turn a robot “head” to face a light. The system consists of a light sensor, a motor and a control circuit. Includes methods to find optimal performance based on the dominant pole. 
