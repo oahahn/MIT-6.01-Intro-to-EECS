@@ -4,5 +4,5 @@ In Week 11 we learnt how to use the probability framework developed in week 10 t
 
 *  stochasticSM.py:
 	*  This implements a stochastic state machine class which contains three fundamental components: an initial state distribution, a state transition model and an observation model. 
-*  state_estimation.py:
+*  state_estimator.py:
 	*  This implements a state estimator class which given a sequence of inputs and observations computes a probability distribution over the hidden states of the system. It does this in two stages first using Bayes rule to compute a belief state and then the law of total probability to compute the final estimation. 
